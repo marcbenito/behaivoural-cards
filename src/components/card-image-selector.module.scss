@@ -1,0 +1,16 @@
+.displayNone {
+    display: none;
+}
+.active {
+    border: 3px solid red;
+}
+.imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.artSelection {
+    width: 100%;
+    max-width: 150px;
+    margin-top: 30px;
+}

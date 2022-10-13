@@ -1,0 +1,32 @@
+.textareaInput {
+  min-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .textareaInput {
+    width: 100%;
+  }
+}
+
+.artSelection {
+  width: 200px;
+}
+
+.cardImageSelector {
+  margin-top: 30px;
+}
+
+.title {
+  margin: 10px;
+  width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+  .title {
+    margin-left: 50px;
+  }
+}
+
+.imageInput {
+  display: none;
+}

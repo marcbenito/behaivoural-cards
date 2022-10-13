@@ -1,0 +1,43 @@
+{
+    "name": "behaivoural-cards",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix",
+        "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.10.4",
+        "@emotion/styled": "^11.10.4",
+        "@mui/material": "^5.10.9",
+        "@mui/x-data-grid": "^5.17.6",
+        "formik": "^2.2.9",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.4.2",
+        "thin-backend": "^0.11.0",
+        "thin-backend-react": "^0.10.1",
+        "yup": "^0.32.11"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.17",
+        "@types/react-dom": "^18.0.6",
+        "@types/thin-backend": "https://thin.dev/types/92a7ad89-24b4-44e1-b721-138e659662ce/VJunSMzGkbUPEjECxFEYvDoTAmDAbDaR",
+        "@typescript-eslint/eslint-plugin": "^5.40.0",
+        "@typescript-eslint/parser": "^5.40.0",
+        "@vitejs/plugin-react": "^2.1.0",
+        "eslint": "^8.25.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-react": "^7.31.10",
+        "prettier": "^2.7.1",
+        "sass": "^1.55.0",
+        "typescript": "^4.6.4",
+        "vite": "^3.1.0"
+    }
+}
